@@ -1,9 +1,9 @@
 def collatz(num):
   if num%2==0:
-    print('this is oushu')
+    print(str(num/2))
     return num/2
-  if num%==1:
-    print('this is jishu')
+  if num%2==1:
+    print(str(3*num+1))
     return 3*num+1
 r=int(input())
 while r!=1:
